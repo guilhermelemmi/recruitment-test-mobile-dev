@@ -12,9 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *weightField;
 @property (strong, nonatomic) IBOutlet UITextField *heightField;
-@property (strong, nonatomic) IBOutlet UILabel *resultText;
-@property (strong, nonatomic) NSNumberFormatter *formatter;
-- (IBAction)calculateBMIButton:(id)sender;
 
 @end
 

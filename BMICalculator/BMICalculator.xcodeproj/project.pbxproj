@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111B62801BFE4A1A004721BA /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B627F1BFE4A1A004721BA /* ResultViewController.m */; };
 		11FDB6161BFDEAFA00C98116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FDB6151BFDEAFA00C98116 /* main.m */; };
 		11FDB6191BFDEAFA00C98116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FDB6181BFDEAFA00C98116 /* AppDelegate.m */; };
 		11FDB61C1BFDEAFA00C98116 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FDB61B1BFDEAFA00C98116 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		111B627E1BFE4A1A004721BA /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		111B627F1BFE4A1A004721BA /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 		11FDB6111BFDEAFA00C98116 /* BMICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FDB6151BFDEAFA00C98116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11FDB6171BFDEAFA00C98116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		11FDB6131BFDEAFA00C98116 /* BMICalculator */ = {
 			isa = PBXGroup;
 			children = (
+				111B627E1BFE4A1A004721BA /* ResultViewController.h */,
+				111B627F1BFE4A1A004721BA /* ResultViewController.m */,
 				11FDB6171BFDEAFA00C98116 /* AppDelegate.h */,
 				11FDB6181BFDEAFA00C98116 /* AppDelegate.m */,
 				11FDB61A1BFDEAFA00C98116 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				11FDB61C1BFDEAFA00C98116 /* ViewController.m in Sources */,
 				11FDB6191BFDEAFA00C98116 /* AppDelegate.m in Sources */,
 				11FDB6161BFDEAFA00C98116 /* main.m in Sources */,
+				111B62801BFE4A1A004721BA /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				11FDB6401BFDEAFA00C98116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11FDB6411BFDEAFA00C98116 /* Build configuration list for PBXNativeTarget "BMICalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				11FDB6431BFDEAFA00C98116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11FDB6441BFDEAFA00C98116 /* Build configuration list for PBXNativeTarget "BMICalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				11FDB6461BFDEAFA00C98116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
