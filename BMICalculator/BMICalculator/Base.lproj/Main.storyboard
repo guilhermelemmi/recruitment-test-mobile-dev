@@ -70,9 +70,12 @@
                                 <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Calculate BMI"/>
+                                <connections>
+                                    <action selector="calculateBMIButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p3o-Jd-aHR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRU-9J-gPy">
-                                <rect key="frame" x="20" y="289" width="560" height="104"/>
+                                <rect key="frame" x="20" y="289" width="560" height="46"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -115,6 +118,11 @@
                             <constraint firstItem="YpE-jg-8Wb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ud8-38-9bE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="heightField" destination="Qsp-5P-wAs" id="AKT-05-Tqx"/>
+                        <outlet property="resultText" destination="lRU-9J-gPy" id="xsk-AP-eZP"/>
+                        <outlet property="weightField" destination="YBM-1w-VS5" id="67u-qi-9PV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
