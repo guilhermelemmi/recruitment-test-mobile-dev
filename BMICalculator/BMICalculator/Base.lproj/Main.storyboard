@@ -19,35 +19,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Enter your weight and height below to calculate your Body Mass Index (BMI)." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZ6-LK-st6">
-                                <rect key="frame" x="20" y="76" width="560" height="70"/>
+                                <rect key="frame" x="18" y="76" width="560" height="70"/>
                                 <animations/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YBM-1w-VS5">
-                                <rect key="frame" x="20" y="166" width="533" height="46"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Your weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YBM-1w-VS5">
+                                <rect key="frame" x="20" y="181" width="533" height="46"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.84858247291553535" green="0.87614071834049534" blue="0.89446507352941174" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="next"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="kg" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cus-Vg-vUs">
-                                <rect key="frame" x="561" y="166" width="19" height="46"/>
+                                <rect key="frame" x="563" y="181" width="19" height="46"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="19"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qsp-5P-wAs">
-                                <rect key="frame" x="20" y="244" width="533" height="46"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Your height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qsp-5P-wAs">
+                                <rect key="frame" x="20" y="268" width="533" height="46"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.84705882352941175" green="0.87450980392156863" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="go"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpE-jg-8Wb">
-                                <rect key="frame" x="20" y="323" width="560" height="39"/>
+                                <rect key="frame" x="20" y="341" width="560" height="39"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" red="0.092942450814174182" green="0.19186914554818094" blue="0.40917622451241131" alpha="1" colorSpace="calibratedRGB"/>
@@ -60,47 +62,55 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rre-PI-hfN">
-                                <rect key="frame" x="565" y="244" width="15" height="46"/>
+                                <rect key="frame" x="565" y="268" width="15" height="46"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="19"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2N-2M-iVi">
-                                <rect key="frame" x="20" y="370" width="560" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4q-WX-Pdx">
+                                <rect key="frame" x="20" y="158" width="69" height="21"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPb-1W-zUl">
+                                <rect key="frame" x="20" y="244" width="69" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="v2N-2M-iVi" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2mV-ID-hx4"/>
-                            <constraint firstItem="Rre-PI-hfN" firstAttribute="leading" secondItem="Qsp-5P-wAs" secondAttribute="trailing" constant="12" id="ABc-e5-yhr"/>
-                            <constraint firstItem="YpE-jg-8Wb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="CZn-IX-IdF"/>
-                            <constraint firstItem="cus-Vg-vUs" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="JlT-Iy-KWp"/>
-                            <constraint firstItem="Rre-PI-hfN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="L1o-3I-7a2"/>
-                            <constraint firstItem="Qsp-5P-wAs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="RuE-Pt-7np"/>
-                            <constraint firstItem="cus-Vg-vUs" firstAttribute="leading" secondItem="YBM-1w-VS5" secondAttribute="trailing" constant="8" id="WNf-PY-vpX"/>
-                            <constraint firstItem="v2N-2M-iVi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cbq-KM-V93"/>
-                            <constraint firstItem="mZ6-LK-st6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cjM-zM-9Gz"/>
-                            <constraint firstItem="mZ6-LK-st6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="g5L-u3-2ac"/>
-                            <constraint firstItem="YBM-1w-VS5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="grq-wS-VsH"/>
-                            <constraint firstItem="v2N-2M-iVi" firstAttribute="top" secondItem="YpE-jg-8Wb" secondAttribute="bottom" constant="8" id="hgM-TY-VaD"/>
-                            <constraint firstItem="Rre-PI-hfN" firstAttribute="top" secondItem="cus-Vg-vUs" secondAttribute="bottom" constant="32" id="iuD-iP-mtf"/>
-                            <constraint firstItem="YBM-1w-VS5" firstAttribute="top" secondItem="mZ6-LK-st6" secondAttribute="bottom" constant="20" id="lBL-Qp-cMJ"/>
-                            <constraint firstItem="Qsp-5P-wAs" firstAttribute="top" secondItem="YBM-1w-VS5" secondAttribute="bottom" constant="32" id="m0j-aW-bcY"/>
-                            <constraint firstItem="YpE-jg-8Wb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="thy-3f-PdB"/>
-                            <constraint firstItem="YpE-jg-8Wb" firstAttribute="top" secondItem="Qsp-5P-wAs" secondAttribute="bottom" constant="33" id="uIm-fC-o10"/>
-                            <constraint firstItem="cus-Vg-vUs" firstAttribute="top" secondItem="mZ6-LK-st6" secondAttribute="bottom" constant="20" id="ye7-em-D4U"/>
+                            <constraint firstItem="O4q-WX-Pdx" firstAttribute="top" secondItem="mZ6-LK-st6" secondAttribute="bottom" constant="12" id="4h6-ba-Zc4"/>
+                            <constraint firstItem="Rre-PI-hfN" firstAttribute="leading" secondItem="Qsp-5P-wAs" secondAttribute="trailing" constant="12" id="BRD-cu-JSV"/>
+                            <constraint firstItem="Qsp-5P-wAs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jto-5E-ORJ"/>
+                            <constraint firstItem="YpE-jg-8Wb" firstAttribute="top" secondItem="Rre-PI-hfN" secondAttribute="bottom" constant="27" id="MsM-Cy-zhx"/>
+                            <constraint firstItem="OPb-1W-zUl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="O9r-2J-wGR"/>
+                            <constraint firstItem="YpE-jg-8Wb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="RZA-VI-TYz"/>
+                            <constraint firstItem="YpE-jg-8Wb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UAm-Pj-kb5"/>
+                            <constraint firstItem="Qsp-5P-wAs" firstAttribute="top" secondItem="OPb-1W-zUl" secondAttribute="bottom" constant="3" id="UvS-JC-AQ5"/>
+                            <constraint firstItem="OPb-1W-zUl" firstAttribute="top" secondItem="YBM-1w-VS5" secondAttribute="bottom" constant="17" id="VI2-Vt-SrQ"/>
+                            <constraint firstItem="YBM-1w-VS5" firstAttribute="top" secondItem="O4q-WX-Pdx" secondAttribute="bottom" constant="2" id="W69-Uf-bdY"/>
+                            <constraint firstItem="Rre-PI-hfN" firstAttribute="top" secondItem="cus-Vg-vUs" secondAttribute="bottom" constant="41" id="WaU-3G-K4G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mZ6-LK-st6" secondAttribute="trailing" constant="2" id="hxu-1Z-UEq"/>
+                            <constraint firstItem="Rre-PI-hfN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="joK-mo-vJs"/>
+                            <constraint firstItem="YBM-1w-VS5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="o6i-uY-K7Q"/>
+                            <constraint firstItem="cus-Vg-vUs" firstAttribute="top" secondItem="mZ6-LK-st6" secondAttribute="bottom" constant="35" id="q1Y-KA-fBj"/>
+                            <constraint firstItem="mZ6-LK-st6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-2" id="skw-de-ycd"/>
+                            <constraint firstItem="cus-Vg-vUs" firstAttribute="leading" secondItem="YBM-1w-VS5" secondAttribute="trailing" constant="10" id="upZ-Ra-gP6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cus-Vg-vUs" secondAttribute="trailing" constant="-2" id="v2b-ln-Xgy"/>
+                            <constraint firstItem="O4q-WX-Pdx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="v9X-Pk-YdU"/>
+                            <constraint firstItem="mZ6-LK-st6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="12" id="x3q-l3-1d3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="BMI Calculator" id="Oxz-Zb-b6H"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <connections>
-                        <outlet property="errorLabel" destination="v2N-2M-iVi" id="Tva-5Y-q3L"/>
                         <outlet property="heightField" destination="Qsp-5P-wAs" id="AKT-05-Tqx"/>
                         <outlet property="weightField" destination="YBM-1w-VS5" id="67u-qi-9PV"/>
                     </connections>
@@ -128,7 +138,7 @@
             </objects>
             <point key="canvasLocation" x="565" y="439"/>
         </scene>
-        <!--BMI Calculator-->
+        <!--Result View Controller-->
         <scene sceneID="4nI-Mr-n4R">
             <objects>
                 <viewController id="zPa-mH-q5d" customClass="ResultViewController" sceneMemberID="viewController">
@@ -176,7 +186,7 @@
                             <constraint firstItem="oj3-wA-Fdp" firstAttribute="centerX" secondItem="5eW-dU-nLh" secondAttribute="centerX" id="qea-Bq-n5F"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="BMI Calculator" id="Vaf-h7-9xi"/>
+                    <navigationItem key="navigationItem" id="Vaf-h7-9xi"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <connections>
                         <outlet property="bmiClassification" destination="UdZ-wq-E2i" id="4oT-xB-EZ9"/>

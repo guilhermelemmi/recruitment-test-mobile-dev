@@ -19,18 +19,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    _weightField.delegate = self;
-    _heightField.delegate = self;
+    //change input fields border color
+    _weightField.layer.borderColor=[[UIColor colorWithRed:127.0f/255.0f green:140.0f/255.0f blue:141.0f/255.0f alpha:1.0] CGColor];
+    _weightField.layer.borderWidth=1.0;
+    _heightField.layer.borderColor=[[UIColor colorWithRed:127.0f/255.0f green:140.0f/255.0f blue:141.0f/255.0f alpha:1.0] CGColor];
+    _heightField.layer.borderWidth=1.0;
     
+    //instantiate number formatter for input fields
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
     [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
     [numberFormatter setMaximumFractionDigits:2];
     [numberFormatter setMinimumFractionDigits:2];
     
-    _weightField.text = [numberFormatter stringFromNumber:[NSNumber numberWithInt:0]];
-    _heightField.text = [numberFormatter stringFromNumber:[NSNumber numberWithInt:0]];
+    //delegate input field formatting
+    _weightField.delegate = self;
+    _heightField.delegate = self;
 }
 
+//set focus on weight field
 - (void)viewWillAppear:(BOOL)animated {
     [self.weightField becomeFirstResponder];
 }
@@ -49,6 +55,7 @@
     destViewController.height = [self.heightField.text floatValue];
  }
 
+//validate input fields before segue
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)segue sender:(id)sender {
     //validate user input before segue
     if([self.weightField.text floatValue]>0 && [self.heightField.text floatValue]>0){
@@ -63,7 +70,7 @@
 //input formatting callback, as per https://github.com/peterboni/FormattedCurrencyInput
 - (BOOL)textField:(UITextField*)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString*)string
 {
-    NSInteger MAX_DIGITS = 5; // $999.99
+    NSInteger MAX_DIGITS = 5; // 999.99
     
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
     [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
