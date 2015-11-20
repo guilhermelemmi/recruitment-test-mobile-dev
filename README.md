@@ -15,7 +15,8 @@ To install and test BMI Calculator follow the steps below (screenshots supportin
 5. Locate the directory where you saved the project on step 3 and, within it, select folder "BMI Calculator" and click "Open";
 6. XCode will open the project. To test the app on the XCode Simulator, simply click on the "Play" button in the top toolbar, selecting the appropriated Simulator device as needed.
 
-Testing on a Real Device
+Testing on a Real Device:
+
 7. To test the app on a real device, first make sure that you have selected the top most "BMICalculator" folder in the Navigation Area, in the left-hand column of your screen.
 8. In the central column, click on the button "Fix issue" under the "No valid signing identities (i.e. certificate and private key pair) were found" alert message;
 9. Click on button "Add", in the alert window with message "To fix this issue, add an Apple ID account";
